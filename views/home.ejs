@@ -1,0 +1,127 @@
+<%- include("partials/header") %>
+
+  <section id="title">
+    <div class="resume">
+      <div id="container">
+        <img src="/images/me-circle.png" id="head-image" onmouseover="darkImg()" onmouseout="lightImg()" alt="">
+      </div>
+      <form>
+        <a href="/docs/carson-resume.pdf">
+          <button type="button" onmouseover="darkImg()" onmouseout="lightImg()" class="btn btn-lg btn-download" name="button">
+            Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-download"></i>
+          </button>
+        </a>
+      </form>
+    </div>
+  </section>
+
+  <section id="my-story">
+    <div id="story-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <table>
+            <td>
+              <img src="/images/motivated.png" class="story-image" alt="">
+            </td>
+            <td>
+              <h1>Motivated</h1>
+              <h5>I am a self taught Front End Engineer with half years experience in the Software Industry. I am very thankful for the opportunites I have had to learn what you see here on this website!</h5>
+            </td>
+          </table>
+        </div>
+        <div class="carousel-item">
+          <table>
+            <td>
+              <img src="/images/curious.png" class="story-image" alt="">
+            </td>
+            <td>
+              <h1>Curious</h1>
+              <h5>What I love the most about development is the facing the issue, finding the selution, solving the problem and learning new knowledge.  My passion is writing clean code with an emphasis on using the latest development technologies. </h5>
+            </td>
+          </table>
+        </div>
+        <div class="carousel-item">
+          <table>
+            <td>
+              <img src="/images/competent.png" class="story-image" alt="">
+            </td>
+            <td>
+              <h1>Competent</h1>
+              <h5>This website is build completely from what I current learned. The goal of this website is to display what I have been able to learn thus far in my career as a Software Engineer.</h5>
+            </td>
+          </table>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#story-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#story-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="Goals">
+    <div class="row">
+      <div class="col-lg">
+        <div id="achieved" class="card">
+          <div class="card-header">
+            <h3>Achieved</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">React</li>
+              <li class="list-group-item" onmouseover="hoverColor()" onmouseout="originalColor()">
+                <span class="iconify icon-hover" data-icon="simple-icons:mongodb" style="color: white;"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;MongoDB</li>
+              <li class="list-group-item">SQL</li>
+              <li class="list-group-item">EJS</li>
+              <li class="list-group-item">ES6</li>
+              <li class="list-group-item">APIs</li>
+              <li class="list-group-item">Node</li>
+              <li class="list-group-item">Express</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div id="planned" class="card">
+          <div class="card-header">
+            <h3>Planned</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">C++</li>
+              <li class="list-group-item">PHP</li>
+              <li class="list-group-item">Angular</li>
+              <li class="list-group-item">Ruby</li>
+              <li class="list-group-item">Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <script>
+      function darkImg() {
+        $("#head-image")[0].setAttribute("src", "/images/cx-logo-circle.png");
+      }
+      function lightImg() {
+        $("#head-image")[0].setAttribute("src", "/images/me-circle.png");
+      }
+      function hoverColor() {
+        $(".icon-hover")[0].setAttribute("style", "#6FB2D2");
+      }
+      function originalColor() {
+        $(".icon-hover")[0].setAttribute("style", "white");
+      }
+    </script>
+
+<%- include("partials/footer") %>

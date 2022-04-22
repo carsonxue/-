@@ -1,0 +1,258 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #006778;
+}
+
+h2 {
+  color: #006778;
+}
+
+h5 {
+  line-height: 35px;
+  color: white;
+}
+
+.navbar {
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 0;
+  font-size: 16px;
+  letter-spacing: 5px;
+  background-color: #77C9D4;
+  height: 70px;
+  box-shadow: 0 4px 8px #888888;
+}
+
+.nav-p {
+  color: white;
+}
+
+
+.nav  li a:hover {
+  color: #006778;
+}
+
+.nav-p:hover {
+  color: #006778;
+}
+
+.footer {
+	text-align: center;
+	height: 100px;
+	background-color: #77C9D4;
+}
+
+.footer img {
+  width: 50px;
+  font-size: 40px;
+  margin: 25px 20px 0 20px;
+  opacity: 0.5;
+  color: white;
+}
+
+.footer img:hover {
+  opacity: 1;
+}
+
+.title-back {
+  width: 500px;
+  position: absolute;
+}
+
+.resume {
+  text-align: center;
+}
+
+#head-image {
+  margin: 60px 0 20px 0;
+  width: 370px;
+}
+
+#title .btn {
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #006778;
+  margin-bottom: 50px
+}
+
+.btn-download {
+  border-width: 2px;
+  border-color: #006778;
+}
+
+#title .btn:hover {
+  background-color: #77C9D4;
+  border-color: #77C9D4;
+  color: white;
+}
+
+#my-story {
+  text-align: left;
+  background-color: #77C9D4;
+}
+
+.story-image {
+  width: 270px;
+  margin-right: 60px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#Goals {
+  padding: 80px 10%;
+  background-color: #39AEA9;
+}
+
+#Goals .card {
+  margin: 40px 15% 0;
+  border-radius: 10px;
+}
+
+#Goals .card-header {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  color: #006778;
+  border-width: 0;
+}
+
+#Goals .card-header:first-child {
+  border-radius: 10px;
+}
+
+#Goals .list-group {
+  border-radius: 10px;
+}
+
+#Goals .list-group-item {
+  border-radius: 10px;
+  margin: 2px 0;
+}
+
+#achieved .list-group-item {
+  background-color: #6FB2D2;
+  border-color: #6FB2D2;
+  color: white;
+}
+
+#planned .list-group-item {
+  background-color: #77C9D4;
+  border-color: #77C9D4;
+  color: white;
+}
+
+#achieved .list-group-item:hover {
+  background-color: white;
+  color: #6FB2D2;
+}
+
+#planned .list-group-item:hover {
+  background-color: white;
+  color: #77C9D4;
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 1px;
+}
+
+#contact {
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  padding-left: 120px;
+}
+
+#contact .contact-image {
+  width: 350px;
+  margin: 5% 15%;
+  border-radius: 85px;
+}
+
+#contact .input {
+  margin: 50px 10%;
+}
+
+#contact ::placeholder {
+  color: #A5a5af;
+}
+
+#contact .form-control {
+  border-color: #77C9D4;
+  border-width: 1.5px;
+}
+
+#contact .btn-send {
+  background-color: #77C9D4;
+  border-color: #77C9D4;
+  color: #006778;
+}
+
+#contact .btn-send:hover {
+  background-color: white;
+  color: #77C9D4;
+}
+
+#portfolio {
+  text-align: center;
+  background-color: white;
+  padding: 7%;
+}
+
+#portfolio .col-lg {
+  padding: 0;
+}
+
+#portfolio .card {
+  margin: 10px;
+  border-color: #77C9D4;
+  border-radius: 30px;
+  width: 800px;
+  background-color: #77C9D4;
+}
+
+#portfolio .card:hover {
+  box-shadow: 5px 6px 8px #A5a5AF;
+}
+
+#portfolio .card-header {
+  background-color: #77C9D4;
+  border-width: 0;
+  padding-top: 10px;
+}
+
+#portfolio h3 {
+  margin-top: 2px;
+  margin-bottom: 0;
+  color: white;
+}
+
+#portfolio .card-body {
+  padding-bottom: 40px;
+}
+
+#portfolio .card-header:first-child {
+  border-radius: 30px;
+}
+
+#portfolio img {
+  width: 600px;
+  border-radius: 30px;
+}
+
+#success .container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#failure .container {
+  text-align: center;
+  margin-top: 200px;
+}

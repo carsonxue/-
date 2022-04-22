@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+
+<section id="contact">
+  <div class="row">
+    <div class="col-4">
+      <td>
+        <img src="/images/me-black.png" class="contact-image" alt="">
+      </td>
+    </div>
+    <div class="col-7">
+      <td>
+        <h2>Please feel free to leave a message,</h2>
+        <h2> I'd love to hear from you!</h2>
+        <form class="input" method="post">
+          <input type="text" class="form-control" name="postName" value="" placeholder="Your Name"><br />
+          <input type="email" class="form-control" name="postEmail" value="" placeholder="Your Email"><br />
+          <input type="text" class="form-control" name="postTitle" value="" placeholder="Subject Line"><br />
+          <textarea class="form-control" name="postContent" rows="5" cols="170" placeholder="Your Message"></textarea><br />
+          <button type="submit" class="form-control btn-send" name="button">Send</button>
+        </form>
+      </td>
+    </div>
+  </div>
+</section>
+
+<%- include("partials/footer") %>
