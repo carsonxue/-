@@ -5,6 +5,18 @@
   <a href="mailto:carsonxue@gmail.com"><img src="images/email.png" alt=""></a>
 </div>
 
+<script>
+  {
+    window.onscroll = function() {
+      var currentScrollPos = window.scrollY;
+      if (currentScrollPos > 1) {
+        $("#navbar").addClass("nav-hidden");
+      } else {
+        $("#navbar").removeClass("nav-hidden");
+      }
+    }
+  }
+</script>
 </body>
 
 </html>

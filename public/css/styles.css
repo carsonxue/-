@@ -1,8 +1,3 @@
-html {
-  min-height: 100%;
-  position: relative;
-}
-
 h1 {
   margin-bottom: 30px;
   color: #006778;
@@ -22,10 +17,23 @@ h5 {
   padding-right: 60px;
   border: 0;
   font-size: 16px;
-  letter-spacing: 5px;
+  font-weight: bold;
+  letter-spacing: 3px;
   background-color: #77C9D4;
   height: 70px;
   box-shadow: 0 4px 8px #888888;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: transform 0.4s;
+}
+
+.nav-logo {
+  width: 50px;
+}
+
+.nav-hidden {
+  transform: translateY(calc(-1 * var(--nav--height)));
 }
 
 .nav-p {
@@ -57,11 +65,6 @@ h5 {
 
 .footer img:hover {
   opacity: 1;
-}
-
-.title-back {
-  width: 500px;
-  position: absolute;
 }
 
 .resume {
@@ -122,6 +125,8 @@ h5 {
   border-radius: 10px;
   color: #006778;
   border-width: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
 }
 
 #Goals .card-header:first-child {
@@ -196,8 +201,8 @@ h5 {
 }
 
 #contact .btn-send:hover {
-  background-color: white;
-  color: #77C9D4;
+  background-color: #006778;
+  color: white;
 }
 
 #portfolio {
