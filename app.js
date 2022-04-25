@@ -1,12 +1,12 @@
 //jshint esversion:6
-
+require("dotenv").config();
 const express = require("express");
 const ejs = require("ejs");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 const app = express();
-mongoose.connect("mongodb+srv://Oralten:YyQGqs8aJ5HNwDZj@cluster0.96jh8.mongodb.net/personalWeb?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://" + process.env.MONGOID + ":" + process.env.MONGOCODE + "@cluster0.96jh8.mongodb.net/personalWeb?retryWrites=true&w=majority");
 
 app.set('view engine', 'ejs');
 
