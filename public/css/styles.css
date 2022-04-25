@@ -254,10 +254,13 @@ h5 {
 
 #success .container {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+
 }
 
 #failure .container {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
