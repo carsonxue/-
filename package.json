@@ -1,7 +1,6 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +16,16 @@
     "express": "^4.17.3",
     "dotenv": "^16.0.0",
     "mongoose": "^6.2.11"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonxue/personal.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/carsonxue/personal/issues"
+  },
+  "homepage": "https://github.com/carsonxue/personal#readme",
+  "description": ""
 }
