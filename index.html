@@ -1,86 +1,120 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Carson Xue - A Clean Web Developor</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/d593bbe36f.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-      <nav id="navbar" class="navbar">
-          <div class="nav-container">
-              <div class="nav-header">
-                <h1>Carson Xue</h1>
-              </div>
-              <ul class="nav-end">
-                  <li class="nav-list">Portfolio</li>
-                  <li class="nav-list">Contact</li>
-              </ul>
-          </div>
-      </nav>
 
-      <section id="title">
-        <div class="resume">
-          <div class="title-container">
-            <img src="public/images/me-circle.png" class="title-img" alt="">
-          </div>
-          <form action="post">
-            <button class="btn">Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-download" type="button"></i></button>
-          </form>
+<head>
+  <meta charset="utf-8">
+  <title>Carson Xue - A Clean Web Developor</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/d593bbe36f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="nav-header">
+        <h1>Carson Xue</h1>
+      </div>
+      <ul class="nav-end">
+        <li class="nav-list">Portfolio</li>
+        <li class="nav-list">Contact</li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="title">
+    <div class="resume">
+      <div class="title-container">
+        <img src="public/images/me-circle.png" class="title-img" alt="">
+      </div>
+      <form action="post">
+        <button class="btn">Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-download"
+            type="button"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <section id="my-story">
+    <div class="slideShow-container">
+      <div class="mySlide">
+        <div class="content fade" style="display: block">
+          <table>
+            <td>
+              <img src="public/images/motivated.png" class="story-image" alt="">
+            </td>
+            <td>
+              <h1>Motivated</h1>
+              <h5>I am a self taught Front End Engineer with half years experience in the Software Industry. I am very
+                thankful for the opportunites I have had to learn what you see here on this website!</h5>
+            </td>
+          </table>
         </div>
-      </section>
-
-      <section id="my-story">
-        <div class="slideShow-container">
-          <div class="mySlide fade">
-            <div class="content">
-              <table>
-                <td>
-                  <img src="public/images/motivated.png" class="story-image" alt="">
-                </td>
-                <td>
-                  <h1>Motivated</h1>
-                  <h5>I am a self taught Front End Engineer with half years experience in the Software Industry. I am very thankful for the opportunites I have had to learn what you see here on this website!</h5>
-                </td>
-              </table>
-            </div>
-          </div>
-          <div class="mySlide fade">
-            <div class="content">
-              <table>
-                <td>
-                  <img src="public/images/curious.png" class="story-image" alt="">
-                </td>
-                <td>
-                  <h1>Curious</h1>
-                  <h5>What I love the most about development is the facing the issue, finding the selution, solving the problem and learning new knowledge.  My passion is writing clean code with an emphasis on using the latest development technologies. </h5>
-                </td>
-              </table>
-            </div>
-          </div>
-          <div class="mySlide fade">
-            <div class="content">
-              <table>
-                <td>
-                  <img src="public/images/competent.png" class="story-image" alt="">
-                </td>
-                <td>
-                  <h1>Competent</h1>
-                  <h5>This website is build completely from what I current learned. The goal of this website is to display what I have been able to learn thus far in my career as a Software Engineer.</h5>
-                </td>
-              </table>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#story-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#story-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <div class="content fade" style="display: none">
+          <table>
+            <td>
+              <img src="public/images/curious.png" class="story-image" alt="">
+            </td>
+            <td>
+              <h1>Curious</h1>
+              <h5>What I love the most about development is the facing the issue, finding the selution, solving the
+                problem and learning new knowledge. My passion is writing clean code with an emphasis on using the
+                latest development technologies. </h5>
+            </td>
+          </table>
         </div>
-      </section>
+        <div class="content fade" style="display: none">
+          <table>
+            <td>
+              <img src="public/images/competent.png" class="story-image" alt="">
+            </td>
+            <td>
+              <h1>Competent</h1>
+              <h5>This website is build completely from what I current learned. The goal of this website is to display
+                what I have been able to learn thus far in my career as a Software Engineer.</h5>
+            </td>
+          </table>
+        </div>
+        <div>
+          <!-- <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-left"></i></a>
+              <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-right"></i></a> -->
+        </div>
+        <button class="btn-slide prev" type="button" alt="prev" onclick="plusSlides(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="btn-slide next" type="button" alt="next" onclick="plusSlides(1)">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
 
-  </body>
+
+
+
+
+  <script>
+    let slideIndex = 1;
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("content");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+    setTimeout(plusSlides(1), 500);
+  </script>
+</body>
+
 </html>

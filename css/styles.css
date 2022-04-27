@@ -61,13 +61,42 @@ body {
 
 #my-story {
     background-color: lightgray;
+    position: relative;
     text-align: center;
+    padding: 100px 0;
 }
 
 .story-image {
-    width: 270px;
+    width: 300px;
 }
 
-.mySlide {
+.mySlide{
+
+}
+
+.content {
     display: none;
+    margin: 0 50px;
+}
+
+.btn-slide {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    position: absolute;
+    top: 45%;
+    background-color: lightgray;
+    color: white;
+}
+
+.prev {
+    left: 0;
+    margin-left: 10px;
+}
+
+.next {
+    right: 0;
+    margin-right: 10px;
 }
